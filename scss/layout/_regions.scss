@@ -1,0 +1,82 @@
+// Region dimensions
+// -----------------------------------
+header,
+.hero,
+.wares__soaps,
+.wares__oils,
+.side-info
+.social,
+footer {
+  width: 100%;
+}
+
+// Region background colors
+// -----------------------------------
+header,
+.hero,
+.about,
+.social {
+  background: $color-white;
+}
+
+.wares__soaps {
+  background: $color-pale-green;
+}
+
+.wares__oils {
+  background: $color-chardon;
+}
+
+.ordering {
+  background: $color-grey;
+}
+
+footer {
+  background: $color-pale-beige;
+}
+
+// Inner shadows for website's main regions. First shadow is for bottom of a block, 
+// and second shadow is for the top.
+header,
+.hero,
+.wares__soaps,
+.wares__oils,
+.side-info,
+.social,
+footer {
+  box-shadow: inset 0 1 0 0 rgba(255, 255, 255, 0.5),
+              inset 0 -1 0 0 rgba(0, 0, 0, 0.1);
+}
+
+// "Coming soon" page styles
+.coming-soon {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header,
+  .announcement,
+  footer {
+    background: $color-white;
+    box-shadow: none;
+  }
+  
+  .announcement__title {
+    line-height: 3.4rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .facebook-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+  }
+  
+//  .wares__item__img {
+//    width: 100%;
+//    max-width: 400px;
+//  }
+}

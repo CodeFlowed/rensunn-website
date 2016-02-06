@@ -1,0 +1,32 @@
+// "Coming soon" page styles
+.coming-soon {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header,
+  .announcement,
+  footer {
+    background: $color-white;
+    box-shadow: none;
+  }
+  
+  .announcement__title {
+    line-height: 3.4rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .facebook-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+  }
+  
+//  .wares__item__img {
+//    width: 100%;
+//    max-width: 400px;
+//  }
+}
