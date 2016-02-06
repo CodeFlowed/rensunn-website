@@ -945,6 +945,10 @@ footer {
   max-width: 250px;
 }
 
+.coming-soon {
+  /* Larger than phablet */
+}
+
 .coming-soon body {
   max-width: 1000px;
   margin: 0 auto;
@@ -958,8 +962,8 @@ footer {
 }
 
 .coming-soon .announcement__title {
-  line-height: 3.4rem;
-  font-size: 3rem;
+  line-height: 2.4rem;
+  font-size: 2rem;
   margin-top: 1rem;
 }
 
@@ -968,4 +972,12 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 70px;
+}
+
+@media (min-width: 550px) {
+  .coming-soon .announcement__title {
+    line-height: 3.4rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
 }
