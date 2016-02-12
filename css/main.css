@@ -1042,8 +1042,10 @@ hr {
 }
 
 .coming-soon body {
-  max-width: 1000px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .coming-soon header,
@@ -1059,11 +1061,16 @@ hr {
   margin-top: 1rem;
 }
 
-.coming-soon .facebook-link {
+.coming-soon .social__facebook-link {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;
+  margin-top: 0;
+  float: left;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.coming-soon .social__facebook-link img {
+  width: 75px;
 }
 
 @media (min-width: 550px) {
