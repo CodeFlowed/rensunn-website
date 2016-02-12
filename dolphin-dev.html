@@ -4,27 +4,40 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<!--    <script src="/js/responsive-nav.js"></script>-->
     <meta name="viewport" content="width=device-width">
     <meta name="format-detection" content="telephone=no">
     <title>Ren Sunn</title>
   </head>
   
   <body>
-    <header>
-      <img src="img/ren-sunn-logo.svg" onerror="this.onerror=null; this.src='img/ren-sunn-logo.png'">
+    <header class="row">
+      <div class="logo-block seven columns">
+        <img src="img/ren-sunn-logo.svg" onerror="this.onerror=null; this.src='img/ren-sunn-logo.png'" class="logo-block__logo">
+      </div>
 
-      <nav class="nav nav-collapse">
-        <ul>
-          <li class="nav__item"><a href="#ordering">Ordering</a></li>
-          <li class="nav__item"><a href="#about">About Us</a></li>
-          <li class="nav__item"><a href="tel:+1-707-278-4543">707-278-4543</a></li>
-        </ul>
-      </nav>
+      <div class="header-info five columns">
+        <p class="phone">
+          <a href="tel:+1-707-278-4543" class="phone__link">Phone: 707-278-4543</a>
+        </p>
+
+        <nav class="nav nav-collapse">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#ordering" class="nav__link">Ordering</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>  
+          </ul>
+        </nav>
+      </div> <!-- .header-info -->
     </header>
 
     <main>
       <section class="hero">
-        <h1 class="hero__title alpha">  
+        <h1 class="hero__header alpha">  
           Nature's Spa<br>
           For Your Skin
         </h1>
@@ -36,35 +49,49 @@
 
       <section class="wares">
         <div class="wares__soaps">
+          <h2 class="wares__group-name">
+            Organic Soaps
+          </h2>
 
-          <div class="wares__item">
-            <img src="img/img-wares/soap-bars.jpg" alt="Product image" class="wares__item__img">
+          <div class="wares__item row">
+            <div class="wares__item__img-wrapper four columns">
+              <img src="img/img-wares/soap-bars.jpg" alt="Product image" class="wares__item__img">
+            </div>
 
-            <h3 class="wares__item__title gamma">
-              Pure Organic 15% Argan Soap Bar
-            </h3>
+            <div class="wares__item__info eight columns">
+              <h3 class="wares__item__name gamma">
+                Pure Organic 15% Argan Soap Bar
+              </h3>
 
-            <p class="wares__item__pricing">
-              $10/bar
-            </p>
+              <p class="wares__item__pricing">
+                $10/bar
+              </p>
 
-            <p class="wares__item__copy">
-              Description here: Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do. <em>To get the Farmers’ market prices</em>, come say “Hi!” at our booth at the Aloha Stadium. And let us know how you like your fresh soaps.
-            </p>
+              <p class="wares__item__copy">
+                Description here: Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do. <em>To get the Farmers’ market prices</em>, come say “Hi!” at our booth at the Aloha Stadium. And let us know how you like your fresh soaps.
+              </p>
 
-            <p class="wares__item__ingredients">
-              Ingredients: Saponified virgin organic olive oil pomace, distilled water, non-GMO virgin organic coconut oil, virgin organic Moroccan argan oil, virgin organic castor oil, fragrance or essential oil.
-            </p>
+              <p class="wares__item__ingredients">
+                Ingredients: Saponified virgin organic olive oil pomace, distilled water, non-GMO virgin organic coconut oil, virgin organic Moroccan argan oil, virgin organic castor oil, fragrance or essential oil.
+              </p>
+            </div> <!-- .wares__item__info -->
           </div> <!-- .wares__item -->
 
         </div> <!-- .wares__soaps -->
 
         <div class="wares__oils">
+          <h2 class="wares__group-name row">
+            Pure Oils
+          </h2>
+          
           <div class="wares__item">
-            <img src="img/img-wares/soap-bars.jpg" alt="Product image" class="wares__item__img">
+            <div class="wares__item__img-wrapper">
+              <img src="img/img-wares/soap-bars.jpg" alt="Product image" class="wares__item__img">
+            </div>
 
-            <h3 class="wares__item__title gamma">
-              Title here
+           <div class="wares__item__info">
+            <h3 class="wares__item__name gamma">
+              Name here
             </h3>
 
             <p class="wares__item__pricing">
@@ -78,13 +105,14 @@
             <p class="wares__item__ingredients">
               Ingredients: Virgin organic Moroccan argan oil
             </p>
+           </div> <!-- .wares__item__info -->
           </div> <!-- .wares__item -->
 
         </div> <!-- .wares__oils -->
       </section> <!-- .wares -->
 
       <section id="ordering" class="ordering">
-        <h2 class="ordering__title beta">
+        <h2 class="ordering__header beta">
           To Order
         </h2>
         
@@ -109,28 +137,28 @@
 
       <aside class="side-info">
         <section id="about" class="about">
-        <h2 class="about__title beta">
-          About Ren Sunn
-        </h2>
-        
-        <p>
-          Filler: We’re a bite-sized team who revels in making great organic soaps and oils for great people like you. Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do.
-        </p>
-      </section>
+          <h2 class="about__header beta">
+            About Ren Sunn
+          </h2>
 
-      <section class="social">
-        <h2 class="social__title beta">
-          Stay in the Know
-        </h2>
-        
-        <p>
-          Filler: Get the latest news about new soap, oils, and more by following Ren Sunn on Facebook. 
-        </p>
-        
-        <a href="https://www.facebook.com/RenSunn">
-          <img src="img/facebook-page.svg" onerror="this.onerror=null; this.src='img/facebook-page.png'">
-        </a>
-      </section> <!-- .social -->
+          <p>
+            Filler: We’re a bite-sized team who revels in making great organic soaps and oils for great people like you. Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do.
+          </p>
+        </section> <!-- .about -->
+
+        <section class="social">
+          <h2 class="social__header beta">
+            Stay in the Know
+          </h2>
+
+          <p>
+            Filler: Get the latest news about new soap, oils, and more by following <a href="https://www.facebook.com/RenSunn">Ren Sunn on Facebook</a>. 
+          </p>
+
+          <a href="https://www.facebook.com/RenSunn" class="social__facebook-link">
+            <img class="social__facebook-link__img" src="img/facebook-page.svg" onerror="this.onerror=null; this.src='img/facebook-page.png'">
+          </a>
+        </section> <!-- .social -->
       </aside>
     </main>
 
@@ -143,27 +171,9 @@
         <small>© Copyright 2016. Ren Sunn logo created by Taylor Wolfe. Website crafted by <a href="http://codeflowed.com/" target="_blank">Code Flowed</a>.</small>
       </p>
     </footer>
+    
+    <script>
+      var nav = responsiveNav(".nav-collapse");
+    </script>
   </body>
-  
-<!--
-          <div class="wares__item">
-            <img src="" alt="Product image" class="wares__item__img">
-
-            <h3 class="wares__item__title gamma">
-              Title here
-            </h3>
-
-            <p class="wares__item__pricing">
-              $$$
-            </p>
-
-            <p class="wares__item__copy">
-              Description here
-            </p>
-
-            <p class="wares__item__ingredients">
-              Ingredients here
-            </p>
-          </div>  .wares__item 
--->
 </html>

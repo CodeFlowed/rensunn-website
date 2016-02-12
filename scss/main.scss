@@ -1,8 +1,11 @@
 @import 'helpers/variables';
 @import 'base/normalize';
-@import 'base/skeleton';
 @import 'base/typebase';
 @import 'layout/regions';
+@import 'layout/skeleton';
 @import 'modules/logo';
-@import 'pages/coming-soon'
+@import 'modules/header-info';
+@import 'modules/responsive-nav';
+@import 'modules/product';
+@import 'pages/coming-soon';
   

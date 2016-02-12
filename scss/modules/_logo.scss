@@ -1,4 +1,16 @@
-.logo {
+.logo-block__logo {
   width: 75%;
   max-width: 250px;
+}
+
+.logo-block__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 550px) {
+  .logo-block__logo {
+    display: inline;
+    margin: auto auto;
+  }
 }
