@@ -10,7 +10,7 @@
     <title>Ren Sunn</title>
   </head>
   
-  <body>
+  <body class="home u-cf">
     <header class="row">
       <div class="logo-block seven columns">
         <img src="img/ren-sunn-logo.svg" onerror="this.onerror=null; this.src='img/ren-sunn-logo.png'" class="logo-block__logo">
@@ -28,7 +28,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="#about" class="nav__link">About Us</a>
+              <a href="https://www.facebook.com/RenSunn" class="nav__link" target="_blank">Facebook</a>
             </li>  
           </ul>
         </nav>
@@ -38,13 +38,12 @@
     <main>
       <section class="hero">
         <h1 class="hero__header alpha">  
-          Nature's Spa<br>
+          Nature's Spa
           For Your Skin
         </h1>
-
-        <p class="hero__copy lead">
-          Hydrate your skin with Ren Sunn’s pure oils, and feel refreshed lathering with our lightly-scented soaps. 100% organic.
-        </p>
+          <p class="hero__copy lead">
+            Hydrate your skin with Ren Sunn’s pure oils, and feel refreshed lathering with our lightly scented soaps. 100% organic. Pure and wholesome.
+          </p>
       </section>
 
       <section class="wares">
@@ -64,12 +63,42 @@
               </h3>
 
               <p class="wares__item__pricing">
-                $10/bar
+                <table class="pricing-table">
+                  <tr>
+                    <td class="pricing-table__header">Qty.</td>
+                    <td class="pricing-table__header">Price</td>
+                    <td class="pricing-table__header pricing-table__farmers-header">Farmers' Market</td>
+                  </tr>
+                  <tr>
+                    <td class="pricing-table__description">1 bar</td>
+                    <td class="pricing-table__price">$10.00</td>
+                    <td class="pricing-table__farmers-price">$8.00</td>
+                  </tr>
+                  <tr>
+                    <td class="pricing-table__item">3 bars</td>
+                    <td class="pricing-table__price">$25.00</td>
+                    <td class="pricing-table__farmers-price">$21.00</td>
+                  </tr>
+                </table>
               </p>
 
-              <p class="wares__item__copy">
-                Description here: Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do. <em>To get the Farmers’ market prices</em>, come say “Hi!” at our booth at the Aloha Stadium. And let us know how you like your fresh soaps.
-              </p>
+              <div class="wares__item__copy">
+                <p>
+                  Handcrafted in small batches in Hawaii, each soap bar is infused with natural ingredients and light scents. Pick your favorites:
+                </p>
+                
+                <ul>
+                  <li><strong>Eucalyptus Mint</strong> — cooling, refreshing, vitalizing, and energizing allowing for the removal of mental exhaustion and fatigue while rejuvenating the mind.</li>
+                  <li><strong>Blood Orange</strong> (essential oil) — said to have anti-depressant and aphrodisiac properties.</li>
+                  <li><strong>Honeysuckle</strong> (essential oil) — a gentle sweet scent that brings nostalgia to the person smelling it.</li>
+                  <li><strong>Japanese Cherry Blossom</strong> — seductive floral scent inspired by the exotic gardens of Japan, combines the aroma of pink cherry blossoms with vanilla bean, musk, and soft woods.</li>
+                  <li><strong>Fragrance Free</strong> — the same organic soap minus the scent.</li>
+                </ul>
+                
+                <p>
+                  <em>To get the Farmers’ market prices</em>, come say “Hi!” at our booth at the Aloha Stadium. And let us know how you like your fresh soaps.
+                </p>
+              </div>
 
               <p class="wares__item__ingredients">
                 Ingredients: Saponified virgin organic olive oil pomace, distilled water, non-GMO virgin organic coconut oil, virgin organic Moroccan argan oil, virgin organic castor oil, fragrance or essential oil.
@@ -84,78 +113,79 @@
             Pure Oils
           </h2>
           
-          <div class="wares__item">
-            <div class="wares__item__img-wrapper">
-              <img src="img/img-wares/soap-bars.jpg" alt="Product image" class="wares__item__img">
+          <div class="wares__item row">
+            <div class="wares__item__img-wrapper four columns">
+              <img src="img/img-wares/oil-argan-4oz-1oz.jpg" alt="Product image" class="wares__item__img">
             </div>
 
-           <div class="wares__item__info">
-            <h3 class="wares__item__name gamma">
-              Name here
-            </h3>
+            <div class="wares__item__info eight columns">
+              <h3 class="wares__item__name gamma">
+                100% Organic Extra Virgin Moroccan Argan Oil
+              </h3>
 
-            <p class="wares__item__pricing">
-              $$$
-            </p>
+              <p class="wares__item__pricing">
+                <table class="pricing-table">
+                  <tr>
+                    <td class="pricing-table__description">Bottle 4 oz.</td>
+                    <td class="pricing-table__price">$25.00</td>
+                  </tr>
+                  <tr>
+                    <td class="pricing-table__item">Spray Bottle 1 oz.</td>
+                    <td class="pricing-table__price">$9.00</td>
+                  </tr>
+                </table>
+              </p>
 
-            <p class="wares__item__copy">
-              Description here: Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do. <em>To get the Farmers’ market prices</em>, come say “Hi!” at our booth at the Aloha Stadium. And let us know how you like your fresh soaps.
-            </p>
+              <div class="wares__item__copy">
+                Argan oil helps to restore the natural pH of the skin reducing winkles and softening while increasing the elasticity and tightening your skin. Argan oil is also used to encourage regrowth of hair. Store in a cool place. Protect from sunlight.
+              </div>
 
-            <p class="wares__item__ingredients">
-              Ingredients: Virgin organic Moroccan argan oil
-            </p>
-           </div> <!-- .wares__item__info -->
+              <p class="wares__item__ingredients">
+                Ingredients: 100% Organic Extra Virgin Moroccan Argan Oil 
+              </p>
+            </div> <!-- .wares__item__info -->
           </div> <!-- .wares__item -->
-
         </div> <!-- .wares__oils -->
       </section> <!-- .wares -->
 
-      <section id="ordering" class="ordering">
-        <h2 class="ordering__header beta">
-          To Order
-        </h2>
-        
-        <p>
-          Email <a href="mailto:support@rensunn.com">support@rensunn.com</a> and let us know:
-        </p>
-        
-        <ul>
-          <li>the product you want</li>
-          <li>its quantity</li>
-          <li>your mailing address</li>
-        </ul>
-        
-        <p>
-          Paypal is our preferred payment processor, and we’ll be happy to ship your order for FREE anywhere in the United States. No international shipping.
-        </p>
-        
-        <p>
-          Note: Our online store is in the works, and we appreciate your patience.
-        </p>
-      </section> <!-- .ordering -->
-
-      <aside class="side-info">
-        <section id="about" class="about">
-          <h2 class="about__header beta">
-            About Ren Sunn
+      <section id="ordering" class="ordering row">
+        <div class="ordering-wrapper eight columns offset-by-two">
+          <h2 class="ordering__header beta">
+            To Order
           </h2>
 
           <p>
-            Filler: We’re a bite-sized team who revels in making great organic soaps and oils for great people like you. Each product we make is infused with natural ingredients and light scents and packaged with care. We hope you enjoy them as much as we do.
+            Email <a href="mailto:support@rensunn.com">support@rensunn.com</a> and let us know:
           </p>
-        </section> <!-- .about -->
 
-        <section class="social">
+          <ul>
+            <li>the product you want</li>
+            <li>its quantity</li>
+            <li>your mailing address</li>
+          </ul>
+
+          <p>
+            Paypal is our preferred payment processor, and we’re happy to ship your order for <strong>FREE</strong> anywhere in the United States. No international shipping.
+          </p>
+
+          <p>
+            Note: Our online store is in the works. We appreciate your patience.
+          </p>
+        </div>
+
+      </section> <!-- .ordering -->
+
+      <aside class="side-info row">
+        <section class="social eight columns">
           <h2 class="social__header beta">
             Stay in the Know
           </h2>
 
           <p>
-            Filler: Get the latest news about new soap, oils, and more by following <a href="https://www.facebook.com/RenSunn">Ren Sunn on Facebook</a>. 
+            Get the latest news about new soap, oils, and more by following <a href="https://www.facebook.com/RenSunn">Ren Sunn on Facebook</a>. 
           </p>
 
-          <a href="https://www.facebook.com/RenSunn" class="social__facebook-link">
+          <a href="https://www.facebook.com/RenSunn" class="social__facebook-link" target="_blank">
             <img class="social__facebook-link__img" src="img/facebook-page.svg" onerror="this.onerror=null; this.src='img/facebook-page.png'">
           </a>
         </section> <!-- .social -->

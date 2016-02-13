@@ -1,10 +1,38 @@
+.wares__item {
+  margin-bottom: $scale * 2rem;
+}
+
 .wares__item__img {
   width: 100%;
   max-width: 260px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
-.wares__item__pricing {
+.wares__item__pricing,
+.pricing-table {
   color: $color-green;
   font-weight: bold;
+  font-size: 1.125 * 1rem;
+}
+
+//.pricing__table {
+//  display: block !important;
+//  margin-left: auto !important;
+//  margin-right: auto !important;
+//}
+
+.pricing-table__header {
+  border-bottom: 1px solid lighten($color-grey, 20%);
+  color: $color-brown;
+  font-weight: 400;
+}
+
+.pricing-table td {
+  padding-right: 0.4em;
+}
+
+.pricing-table__farmers-header,
+.pricing-table__farmers-price {
+  border-left: 1px solid lighten($color-grey, 20%);
+  padding-left: 0.4em;
 }

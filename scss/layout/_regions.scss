@@ -20,6 +20,7 @@ footer {
 }
 
 header {
+  padding-top: 1rem;
   padding-bottom: 0;
 }
 
@@ -45,6 +46,10 @@ header,
   color: $color-white;
 }
 
+.side-info {
+  background: $color-white;
+}
+
 footer {
   background: $color-pale-beige;
 }
@@ -63,10 +68,8 @@ footer {
 //    box-shadow: inset 0  0 10px #000;
 }
 
-// Header region
-// --------------------------------------------------
-header {
-  margin-top: $baseLineHeight * 1rem;
+.hero__copy {
+  max-width: 28 * 1em;
 }
 
 // Wares region
@@ -106,3 +109,12 @@ body {
 //  margin-right: auto;
 //}
 
+@media (min-width: 1000px) {
+  .home {
+    display: block;
+//    background: url(/img/contemporary_china_2.png);
+    background: url(/img/paper_fibers_@2X.jpg);
+    background-size: 410px 410px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
+  }
+}
